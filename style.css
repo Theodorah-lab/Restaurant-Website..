@@ -1,0 +1,352 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,600;1,400&family=Dancing+Script:wght@400;600&family=Fasthand&display=swap');
+
+html {
+          scroll-behavior: smooth  ;
+}
+
+body {
+          background-color: white;
+          font-size: 18px;
+          margin: 0;
+}
+
+a {
+          text-decoration: none;
+          color: white;
+}
+
+/* start of header */
+header {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          background-color: white;
+          opacity: .9;
+          font-family: 'Crimson Text', sans-serif;
+          position: fixed;
+          padding: 10px 30px;
+          left: 0;
+          right: 0;
+          top: 0;
+          z-index: 10;
+}
+
+.logo {
+          font-family: 'Fasthand', sans-serif;
+          font-size: 16px;
+          text-shadow: 1px 1px px grey;
+}
+
+nav ul {
+          display: flex;
+          gap: 50px;
+          list-style: none;
+}
+
+nav ul li > a {
+          text-decoration: none;
+          color: black;
+          transition: ease-in-out .5s;
+}
+
+nav ul li > a:hover {
+          color: black;
+          border-bottom: 2px double yellow;
+          cursor: pointer;
+}
+ 
+
+/* the shopping bag icon */
+.cart {
+          background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiKONRhX7SjSxc7Nrc6ZKPfMsHDCwZsPo7zw&usqp=CAU");        
+          background-repeat: no-repeat;
+          background-size: 100%;
+          width: 40px;
+          height: 40px;
+          border-radius: 50px;
+}
+
+
+/* end of header */
+
+/* START OF HOME PAGE */
+.home {
+          height: 100vh;
+}
+
+.top_section {
+          display: flex;
+          justify-content: space-evenly;
+          align-items: center;
+          width: 100%;
+          height: 100%;
+}
+
+.welcome_text {
+          font-size: 28px;
+}
+
+.welcome_text h1 > span {
+          color: yellow;
+}
+
+.main_meal {
+          background-image: url("https://img.freepik.com/premium-photo/spicy-salad-crispy-catfish-with-mango-slice-hot-tasty-food-thai-top-fried-peanuts-decorate-with-green-oak-chili-carved-lemon-top-view-isolated-white-background_71919-532.jpg?w=740");
+          background-size: 100%;
+          background-position: center;
+          background-repeat: no-repeat;
+          width: 500px;
+          height: 500px;
+
+
+}
+
+.main_meal img{
+          width: 500px;
+          height: 500px;
+          position: relative;
+          animation: rotate 10s linear infinite;
+}
+
+
+/*#main_meal */
+/* =======ANIMATION======= */
+
+
+@keyframes rotate {
+          0%{
+          transform: rotate(0deg);
+          }
+          100%{
+          transform: rotate(360deg); 
+
+          }
+}
+
+/* END OF HOME PAGE */
+
+/* START OF MENU MEALS */
+
+.menu_meals {
+          height: 98vh;
+          display: flex;
+          align-items: center;
+          justify-content: space-evenly;
+          overflow: hidden;
+}
+
+.meals {
+          margin-top: 50px;
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
+          gap: 25px;
+          width: 600px;
+          height: 450px;
+          overflow: scroll;
+          overflow-y: hidden;
+          padding-top: 0;
+          padding: 50px 0;
+          background-color:white ;
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: cover;
+}
+
+.meals .first-child {
+           margin-top: 150px;
+}
+
+.meals div {
+          background-color: transparent;
+          backdrop-filter: blur(20px);
+          padding: 5px;
+          max-width: 300px;
+          height: 300px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          box-shadow: 1px 1px 10px 1px black;
+          color: black;
+}
+
+.meals div > h2 {
+          font-size: 14px;
+          margin: 10px;
+}
+
+.meals div > p {
+          font-size: 18px;
+          margin: 0;
+}
+
+.meals div p > span {
+          font-family: 'Fasthand', cursive;
+}
+
+.meals div > button {
+          width: 150px;
+          height: 30px;
+          border-radius: 20px;
+          background-color: yellow;
+          border: none;
+          color: black;
+          margin-bottom: 10px;
+}
+
+.menu_meals div > img {
+           width: 250px;
+           max-height: 170px;  
+}
+
+.meals-text h2 {
+          font-size: 35px;
+}
+
+.meals-text p {
+          font-size: 24px;
+}
+
+.meals-text button {
+          width: 150px;
+          height: 40px;
+          background-color: yellow;
+          color: white;
+          border: none;
+          border-radius: 20px;
+}
+
+/* END OF MENU MEALS  */
+
+/* START OF ABOUT ME SECTION  */
+
+.about {
+          display: flex;
+          justify-content: space-evenly;
+          align-items: center;
+          height: 100vh;
+          position: relative;
+}
+
+.about-image-container {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          width: 50%;
+          height: 400px;
+          position: relative;
+          right: 400px;
+}
+
+.about-image-container p {
+          color: #f0f5f9;
+          text-shadow: 2px 1px 1px black;
+          width: 60%;
+          text-align: left;
+}
+
+.about img {
+          border-radius: 30%;
+}
+
+.about-text {
+          width: 50%;
+          height: 600px;
+          padding: 20px;
+          background-image: url("https://images.squarespace-cdn.com/content/v1/5e70628bde0e4f65c82e5585/42d7f99d-4e4c-4437-bb58-0498af43b7d1/_DSC0162.jpg");
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+}
+
+.about-text h2 {
+          font-size: 45px;
+          font-family: 'Fasthand', cursive;
+          margin: 0;
+}
+          
+
+/* END OF ABOUT ME SECTION  */
+ 
+
+/* FOOTER STYLES  */
+
+footer {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          background-color: white;
+}
+
+footer > div {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          width: 90%;
+          color: black;
+}
+
+footer > div p {
+          cursor: pointer;
+}
+
+footer > div h3 {
+          text-decoration: underline;
+}
+
+.copyright {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          opacity: .5;
+}
+
+/* scroll bar  */
+
+/* width */
+::-webkit-scrollbar {
+           width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+          box-shadow: inset 0 0 5px grey;
+          border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+          background: #8a8089;
+          border-radius: 10px;
+}
+
+
+/*  */
+
+
+.meals::-webkit-scrollbar {
+           width: 7px;
+}
+
+/* Track */
+.meals::-webkit-scrollbar-track {
+          box-shadow: inset rgb(244, 237, 237);
+          border-radius: 5px;
+}
+
+/* Handle */
+.meals::-webkit-scrollbar-thumb {
+          background: yellow;
+          border-radius: 10px;
+}
