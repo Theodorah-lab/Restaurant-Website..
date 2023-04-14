@@ -1,0 +1,128 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/x-icon" href="./media/logo.png">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TASHA'S RESTAURANT</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="logo"><h1>Tash<b>a'S</b></h1></div>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>  
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div>
+      <div class="cart"></div>
+    </div>
+  </header>
+
+  <main>
+    <section class="home" id="home">
+      <div class="top_section">
+        <div class="welcome_text">
+          <h1>
+            Food Made With <span>Love.</span>
+          </h1>
+        </div>
+        
+        <div class="main_meal">
+          <img src="mennnnn.avif" alt="">
+
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <div class="about-image-container">   
+      </div>
+      <div class="about-text">
+        <h2>SERVED EVERY DAY <br>SINCE 1990</h2>
+          
+      </div>
+    </section>
+
+    <section class="menu_meals" id="menu">
+      <div class="meals">
+        <div class="first-child">
+          <img src="crispy.salad.jpg" alt="meal item">
+          <h2>CRISPY SALAD</h2>
+          <p><span>only</span> R190</p>
+          <button>ORDER</button>
+        </div>
+        
+        <div>
+          <img src="Cheese Burger.jpeg" alt="meal item">
+          <h2>CHEESE BURGER</h2>
+          <p><span>only</span> R150</p>
+          <button>ORDER</button>
+        </div>
+        
+        <div>
+          <img src="Beef Burger.jpeg" alt="meal item">
+          <h2>BEEF BURGER</h2>
+          <p><span>only</span> R130</p>
+          <button>ORDER</button>
+        </div>
+
+        <div>
+          <img src="Beef Oven-baked Ribs.jpg" alt="meal item">
+          <h2>BEEF OVEN-BAKED RIBS</h2>
+          <p><span>only</span> R175</p>
+          <button>ORDER</button>
+        </div>
+
+        
+        <div>
+          <img src="Strawberry & Banana Milkshake.jpeg" alt="meal item">
+          <h2>STRAWBERRY & BANANA MilKSHAKE</h2>
+          <p><span>only</span> R55</p>
+          <button>ORDER</button>
+        </div>
+        
+        <div>
+          <img src="Origional Lime Mojito.jpeg" alt="meal item">
+          <h2>LIME MIJITO</h2>
+          <p><span>only</span> R95</p>
+          <button>ORDER</button>
+        </div>
+      </div>
+    </section>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div>
+      <div>
+        <h3>Operating Hours</h3>
+        <p>Mon - Fri: 9am - 22:00pm</p>
+        <p>Sat: 9am - 18:00pm</p>
+        <p>Sun: 9am - 18:00pm</p>
+      </div>
+
+    
+
+      <div>
+        <h3>Location</h3>
+        <p>53 Power Park
+        <p>Soweto</p>
+        <p>1804</p>
+        
+      </div>
+    </div>
+    <div class="copyright">
+      <p>Tasha's Restaurant&copy;2023 All rights reserved</p>
+    </div>
+  </footer>
+</body>
+</html>
