@@ -91,16 +91,6 @@ nav ul li > a:hover {
           color: yellow;
 }
 
-.main_meal {
-          background-image: url("https://img.freepik.com/premium-photo/spicy-salad-crispy-catfish-with-mango-slice-hot-tasty-food-thai-top-fried-peanuts-decorate-with-green-oak-chili-carved-lemon-top-view-isolated-white-background_71919-532.jpg?w=740");
-          background-size: 100%;
-          background-position: center;
-          background-repeat: no-repeat;
-          width: 500px;
-          height: 500px;
-
-
-}
 
 .main_meal img{
           width: 500px;
