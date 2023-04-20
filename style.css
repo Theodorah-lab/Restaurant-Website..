@@ -231,13 +231,6 @@ nav ul li > a:hover {
           right: 400px;
 }
 
-.about-image-container p {
-          color: #f0f5f9;
-          text-shadow: 2px 1px 1px black;
-          width: 60%;
-          text-align: left;
-}
-
 .about img {
           border-radius: 30%;
 }
